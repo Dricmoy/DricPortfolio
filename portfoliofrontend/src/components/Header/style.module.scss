@@ -33,7 +33,7 @@
                 }
                 &:nth-of-type(3){
                     position: absolute;
-                    left: 120px;
+                    left: 140px;
                     padding-left: 0.3em;
                 }
             }
@@ -43,14 +43,14 @@
                 transform: rotate(360deg);
             }
             .name{
-                padding-right: 30px;
+                padding-right: 60px;
                 .codeBy{
                     transform: translateX(-100%);
                 }
-                .dennis{
-                    transform: translateX(-65px);
+                .dricmoy{
+                    transform: translateX(-70px);
                 }
-                .snellenberg{
+                .bhattacharjee{
                     transform: translateX(-65px);
                 }
             }

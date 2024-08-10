@@ -38,9 +38,9 @@ export default function index() {
             <div className={styles.logo}>
                 <p className={styles.copyright}>©</p>
                 <div className={styles.name}>
-                    <p className={styles.codeBy}>Code by</p>
-                    <p className={styles.dennis}>Dennis</p>
-                    <p className={styles.snellenberg}>Snellenberg</p>
+                    <p className={styles.codeBy}>created by</p>
+                    <p className={styles.dricmoy}>Dricmoy</p>
+                    <p className={styles.bhattacharjee}>Bhattacharjee</p>
                 </div>
             </div>
             <div className={styles.nav}>
@@ -52,7 +52,7 @@ export default function index() {
                 </Magnetic>
                 <Magnetic>
                     <div className={styles.el}>
-                        <a>About</a>
+                        <a>Resume</a>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>
@@ -64,11 +64,15 @@ export default function index() {
                 </Magnetic>
             </div>
         </div>
+
+        
         <div ref={button} className={styles.headerButtonContainer}>
             <Rounded onClick={() => {setIsActive(!isActive)}} className={`${styles.button}`}>
                 <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
             </Rounded>
         </div>
+
+
         <AnimatePresence mode="wait">
             {isActive && <Nav />}
         </AnimatePresence>

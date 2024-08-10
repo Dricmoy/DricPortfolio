@@ -30,10 +30,25 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
       </AnimatePresence>
-      <Landing/>
+      <Landing />
+      <Description />
+      <Projects />
+      <SlidingImages />
+      <Contact />
+      {/*
+      <AnimatePresence mode='wait'>
+        {isLoading && <Preloader />}
+      </AnimatePresence>
+      <Landing />
+      <Description />
+      <Projects />
+      <SlidingImages />
+      <Contact />*/}
+
     </main>
   )
 }

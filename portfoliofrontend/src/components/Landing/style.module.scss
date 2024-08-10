@@ -1,4 +1,5 @@
 .landing{
+
     position: relative;
     display: flex;
     height: 100vh;
@@ -48,6 +49,10 @@
         transform: scale(2);
         margin-bottom: 100px;
       }
+    }      
+    @media only screen and (max-width: 600px) {
+      .slider{
+        padding-top: 20px;
+      }
     }
   }
-  
