@@ -6,15 +6,15 @@ import Image from 'next/image';
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "c2.jpg"
+        src: "business_dashboard.jpg"
     },
     {
         color: "#d6d7dc",
-        src: "decimal.jpg"
+        src: "Ualberta_Course_Planner.png"
     },
     {
         color: "#e3e3e3",
-        src: "funny.jpg"
+        src: "notehub.png"
     },
     {
         color: "#21242b",
@@ -29,15 +29,15 @@ const slider2 = [
     },
     {
         color: "#e5e0e1",
-        src: "panda.jpg"
+        src: "PBI.jpg"
     },
     {
         color: "#d7d4cf",
-        src: "powell.jpg"
+        src: "PriceWise.png"
     },
     {
         color: "#e1dad6",
-        src: "wix.jpg"
+        src: "cyborg_game_studio.png"
     }
 ]
 

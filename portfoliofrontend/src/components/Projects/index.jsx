@@ -9,25 +9,25 @@ import Rounded from '../../common/RoundedButton';
 
 const projects = [
   {
-    title: "DricDesigns",
-    src: ".png",
-    color: "#000000"
-  },
-  {
-    title: "Inspire",
-    src: ".png",
+    title: "Dricmoy",
+    src: "Portfolio.png",
     color: "#8C8C8C"
   },
   {
-    title: "PriceWise",
-    src: ".png",
+    title: "InspireCare",
+    src: "Inspire_new.png",
+    color: "#000000"
+  },
+  {
+    title: "RefineBoard",
+    src: "Dashboard.png",
     color: "#EFE8D3"
   },
   {
-    title: "Notehub",
-    src: ".png",
+    title: "NoteHub",
+    src: "notehub.png",
     color: "#706D63"
-  }
+  },
 ]
 
 const scaleAnimation = {
@@ -86,7 +86,7 @@ export default function Home() {
       }
     </div>
     <Rounded>
-      <p>More work</p>
+      <p>Github</p>
     </Rounded>
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className={styles.modalContainer}>

@@ -62,7 +62,7 @@ export default function index() {
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Instagram</p>
+                                <p>Github</p>
                             </Magnetic>
 
                             <Magnetic>
