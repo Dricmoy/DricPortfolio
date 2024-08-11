@@ -18,10 +18,10 @@ export default function index() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>I'm passionate about leveraging modern tools and frameworks to elevate my efficiency as a developer while not forgetting their origins</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>I'm passionate about leveraging modern tools and frameworks to elevate my efficiency as a developer</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
-                        <p>Data Portfolio</p>
+                        <p>Resume</p>
                     </Rounded>
                 </div>
             </div>
