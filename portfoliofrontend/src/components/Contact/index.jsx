@@ -62,11 +62,11 @@ export default function index() {
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Github</p>
+                                <a href="https://github.com/Dricmoy">Github/Dricmoy</a>
                             </Magnetic>
 
                             <Magnetic>
-                                <p>Linkedin</p>
+                                <a href="https://www.linkedin.com/in/dricmoy-bhatthacharjee/">Linkedin</a>
                             </Magnetic>
                         </span>
                     </div>
