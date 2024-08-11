@@ -51,10 +51,11 @@ export default function index() {
                         <span>
                             <h3>Version</h3>
                             <p>2024 © Edition</p>
+                            <p>9:22 PM MDT</p>
                         </span>
                         <span>
                             <h3></h3>
-                            <p>9:22 PM MDT</p>
+
                         </span>
                     </div>
                     <div>

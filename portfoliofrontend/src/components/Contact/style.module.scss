@@ -234,8 +234,9 @@
                     }
                     span{
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: column;
                         gap: 15px;
+                        margin-left: 10px;
                     }
                     h3{
                         color: grey;
