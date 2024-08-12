@@ -60,7 +60,7 @@ export default function Home() {
 
 
       <div data-scroll data-scroll-speed={0.5} className={styles.description}>
-        <p className="webonly">Hi, I'm Dric :)</p>
+        <p className="webonly">Hi, I'm Dric</p>
       </div>
     
     
