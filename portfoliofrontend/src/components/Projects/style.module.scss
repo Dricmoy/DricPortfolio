@@ -5,7 +5,7 @@
     padding-right: 200px;
     flex-direction: column;
     margin-top: 300px;
-
+    
     .body{
         max-width: 1400px;
         width: 100%;
@@ -15,7 +15,12 @@
         justify-content: center;
         margin-bottom: 100px;
     }
-    
+    .githubContainer {
+        position: absolute; /* Fix the position to ensure it stays on top */
+        margin-top: 800px;
+        z-index: 2000; /* High z-index to ensure it is above other elements */
+      }
+      
     .modalContainer{
         height: 350px;
         width: 400px;
@@ -67,6 +72,7 @@
         background-color: transparent;
     }    
 }
+
 
 
 @media only screen and (max-width: 600px){

@@ -12,7 +12,7 @@ const projects = [
     title: "Hey, I'm Dric",
     src: "Portfolio.png",
     color: "#8C8C8C",
-    link: "https://pricewise-peach-five.vercel.app"
+    link: "https://dricmoybhattacharjee.vercel.app"
   },
   {
     title: "NoteHub",

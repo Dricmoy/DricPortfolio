@@ -5,7 +5,7 @@ import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
 export default function index() {
 
-    const phrase = "Always looking to leverage my data knowledge and developer skills to elevate businesses. Combining these fields, I can provide bleeding edge services. ";
+    const phrase = "Looking to grow into a full fledged software engineer, not just a frameworker. I'm always down to dedicate time on interesting problems";
     const description = useRef(null);
     const isInView = useInView(description)
     return (
@@ -18,7 +18,7 @@ export default function index() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>I'm passionate about leveraging modern tools and frameworks to elevate my efficiency as a developer</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>Let's connect and build together. Feel free to checkout my resume here.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
                         <p>Resume</p>
