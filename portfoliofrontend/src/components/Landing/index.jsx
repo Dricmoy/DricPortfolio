@@ -54,7 +54,7 @@ export default function Home() {
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Software Engineer</p>
-          <p ref={secondText}>Passionate Lifelong Learner</p>
+          <p ref={secondText}>Lifelong learner</p>
         </div>
       </div>
 
