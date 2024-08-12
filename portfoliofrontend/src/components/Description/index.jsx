@@ -5,7 +5,7 @@ import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
 export default function index() {
 
-    const phrase = "Passionate about solving software problems. Together, I can help you turn your ideas into reality and make a real impact.";
+    const phrase = "Passionate about solving software problems. Together, I can help you turn your ideas into reality and make an impact.";
     const description = useRef(null);
     const isInView = useInView(description)
     return (
