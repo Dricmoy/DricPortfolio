@@ -86,7 +86,7 @@ export default function Home() {
       }
     </div>
     <Rounded>
-      <a href="https://github.com/Dricmoy">Github/Dricmoy</a>
+      <a href="https://github.com/Dricmoy" target="_blank"><p >Github/Dricmoy</p></a>
     </Rounded>
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className={styles.modalContainer}>

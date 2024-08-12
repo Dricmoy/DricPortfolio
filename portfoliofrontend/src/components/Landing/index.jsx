@@ -45,7 +45,9 @@ export default function Home() {
 
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
-      
+      <div>
+        <h1>Hi I'm Dricmoy Bhattacharjee</h1>
+      </div>
       <Image 
         src="/images/background.jpg"
         fill={true}
